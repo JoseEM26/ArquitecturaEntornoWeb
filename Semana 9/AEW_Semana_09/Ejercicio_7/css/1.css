@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    background-color: orange;
+}
+
+#contenedor{
+    background-color: beige;
+    margin: 3%;
+}
+header{
+
+}
+header h1{
+    text-align: center;
+    color: orange;
+    padding: 10px;
+}
+header img{
+    width: 100%;
+    vertical-align: top;
+}
+nav{
+    background-color: goldenrod;
+    padding: 10px;
+    display: block;
+}
+nav a{
+    padding: 10px;
+    padding-left: 0;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    /* width: 50%; */
+}
+aside{
+    width: 25%;
+    padding-top: 10px;
+    /* padding-left: 30px; */
+    padding: 10px;
+    
+}
+aside h2{
+    color: blue;
+    /* padding-left:0 ; */
+    padding: 10px;
+}
+aside ul{
+    padding-left: 30px;
+    display: block;
+}
+aside ol{
+    padding-left: 30px;
+    display: block;
+
+}
+article{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+                  justify-content: space-around;
+                  padding: 10px;
+}
+figure{
+
+    margin: 10px 2px;
+    width:45%;
+    /* border: 2px solid blue; */
+    
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+    color: green;
+    padding: 10px;
+}
+
+aside img{
+    width: 50%;
+    padding-top: 20px;
+}
+footer{
+    background-color: green;
+    text-align: center;
+}
+footer p{
+    color: white;
+    padding: 5px;
+}
+
+
+
+
+
+

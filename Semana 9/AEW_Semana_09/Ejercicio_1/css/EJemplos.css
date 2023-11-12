@@ -1,0 +1,22 @@
+body{
+    background-color: blue;
+    margin: 80px;
+}
+#contenedor{
+    background-color: white;
+    padding: 30px 20px;
+    width: 80%;
+    margin: auto;
+}
+h1{
+    color: red;
+}
+p{
+    text-align: justify;
+}
+img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 30px;
+
+}

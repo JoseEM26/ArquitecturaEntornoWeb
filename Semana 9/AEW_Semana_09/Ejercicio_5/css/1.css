@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    background-color: brown;
+}
+#contenedor{
+    background-color: white;
+    margin: 20px;
+    width: auto;
+}
+.logo{
+    display: flex;
+    float: right;
+   width: 25%;
+   margin: 10px 0;
+}
+.banner{
+    width: 100%;
+}
+main{
+    display: flex;
+}
+aside{
+    width: 20%;
+    padding: 10px;
+}
+aside a{
+    display: block;
+    margin: 10px 0;
+}
+section{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+article{
+    margin: 10px
+}
+article img{
+    margin: 10px;
+    float: left;
+    width: 40%;
+}
+article h1{
+    color: blue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+article p{
+    text-align: justify;
+}
+footer{
+    background-color: gray;
+    display:flex ;
+}
+footer p{
+    margin: 15px;
+    color: yellow;
+    width: 90%;
+}
+footer img{
+    float: right;
+    margin: 7px;
+}

@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    /* background-color: aqua; */
+    padding: 20px;
+}
+#Contenedor{
+    background-color: white;
+    /* padding: 40px; */
+}
+header{
+    text-align: center;
+}
+header img{
+    width: 80%;
+    padding: 0 50px;
+                                                            justify-content: center;
+          
+}
+header h1{
+    color: red;
+    padding: 10px;
+    font-size: 15px;
+
+}
+main{
+    display: block;
+    padding: 10px;
+    /* text-align: center; */
+
+
+}
+article{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    
+
+}
+article figure{
+    border: 2px solid black;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 2px;
+    width: 30%;
+
+    
+}
+article img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.animal{
+    width: 30%;
+   
+    
+} 
+
+nav{
+    color: red;
+    text-align: center;
+    padding: 5px;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* text-align: center; */
+    /* padding-left: 1000px; */
+
+    
+    
+}
+aside div{
+    /* margin: ; */
+    border: 6px solid gray;
+    width: 26%;
+}
+aside ul{
+    padding-left:50px ;
+    padding-bottom: 20px;
+}
+footer{
+    display: block;
+    /* width: 10%; */
+    text-align: center;
+}
+footer img{
+    width: 90% ;
+    
+}
+footer a{
+    display: block;
+    text-align: center;
+    color: blue;
+    padding: 3px;
+    padding-bottom: 3px; 
+}
+

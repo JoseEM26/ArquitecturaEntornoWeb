@@ -1,0 +1,13 @@
+/* sirve el signo *para hacer un cambio en forma general en toda la hoja */
+*{color: gray;}
+h1{text-align: center;color: red;}
+p em{color: blue;}
+p strong{color: green;}
+p em strong{color: crimson;} 
+/* para ponerle un estilo a un solo parrafo */
+p.parrafo1{font-family: Arial;}
+p.parrafo2{font-family: Verdana; color: darkorange;}
+/* sirve para todos los componentes para adquirir estilos unicos y espicificos para los que tienen este codigo */
+.desacado{font-style: italic;color: tomato;}
+/* para solamente un parrafo(p,h1,h2)solo uno en especial y unico, puede usarse varios pero con difetente nombre */
+#especial{letter-spacing: 10px;}

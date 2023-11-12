@@ -1,0 +1,20 @@
+body{background-color: green;}
+
+#contenedor{
+display: block;
+}
+p.a1{
+    background-color: orange;
+    padding: 10px;
+
+}
+p.a2{
+    background-color: aquamarine;
+    padding: 10px;
+
+}
+p.a3{
+    background-color: orangered;
+    padding: 10px;
+
+}

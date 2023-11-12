@@ -1,0 +1,18 @@
+body{background-color: green;}
+#contenedor{
+    display: inline-block;
+}
+p.a1{
+    background-color: aqua;
+    padding: 10px;
+}
+
+p.a2{
+    background-color: rgb(211, 159, 143);
+    padding: 10px;
+}
+
+p.a3{
+    background-color: rgb(111, 0, 255);
+    padding: 10px;
+}

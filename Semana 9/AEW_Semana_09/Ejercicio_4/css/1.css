@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+html{
+    border: 2px solid red;
+}
+body{
+    border: 2px solid orange;
+    }
+#contenedor{
+    width: 95%;
+    margin: auto;
+}
+.logo{
+margin: 10px;
+}
+.banner{
+    width: 100%;
+}
+main{
+    display: flex;
+}
+aside{
+    width: 20%;
+}
+aside a{
+    display: block;
+    margin: 10px;
+}
+section{
+    /* margin: 10px; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+section article{
+    margin: 10px;
+
+}
+article img{
+    float: left;
+    width: 25%;
+    margin: 20px 40px;
+    
+}
+article p{
+    text-align: justify;
+}
+footer{
+    background-color: gray;
+    display: flex;
+}
+footer p{
+    color: white;
+    width: 90%;
+    margin: 20px 10px;
+}
+footer div{
+    margin: 2px;
+    display: flex;
+}
+footer img{
+    float: right;
+    padding-right: 10px;
+    
+}

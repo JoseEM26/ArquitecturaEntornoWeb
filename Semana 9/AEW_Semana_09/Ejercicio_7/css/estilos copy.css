@@ -1,0 +1,119 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: orange;
+}
+#contendedor{
+    width: 95%;
+    margin: 30px 20px ;
+}
+.Titulo{
+    position: static;
+    width: 100%;
+    height: 200px;
+    background-color: beige;
+    
+}
+.navegador{
+    background-color: gold;
+    width: 100%;
+    height: 40px;
+}
+.informacion{
+    background-color: beige;
+    width: 30%;
+    height: 700px;
+    display: inline-block;
+    float: left;
+}
+.main{
+    background-color: white;
+    width:70%;
+    height:700px ;
+    display: inline-block;
+    float: right;
+}
+.abajo{
+    background-color: green;
+    width: 95%;
+    height: 70px;
+    position: absolute;
+    top: 900px;
+}
+h1{
+    color: orange;
+    text-align: center;
+}
+.Titulo img{
+    width: 100%;
+    height: 83%;
+}
+.navegador a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color:chocolate;
+}
+.informacion h2{
+    color: blue;
+    right: 10px;
+    margin: 0px 10px;
+}
+.informacion ul{
+    margin: 0px 30px;
+}
+
+.main .imageness{
+    background-color: aqua;
+    width: 40%  ;
+    height: 630px;
+   position: absolute;
+              flex-wrap: wrap;
+              display: flex;
+    text-align: center;
+    
+   
+}
+.main .publicidad{
+    background-color:beige;
+    padding: 5px 20px;
+    height: 100px;
+    float: right;
+    width: 35%;
+    height: 615px;
+        
+}
+.main .publicidad img{
+    width: 100px;
+    right: 100px;
+    bottom: 10%;
+}
+.main .imageness img{
+    height:auto;
+    width: 50%;
+       
+    
+}
+.main .imageness div{
+    margin: 7%;
+
+}
+.abajo{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.abajo p{
+ margin bottom:10px ;   
+ 
+}
+
+
+
+   
+
+
+
