@@ -1,0 +1,22 @@
+@font-face{
+    font-family: 'Minecraft';
+    src: url(../documentos/Minecraft.ttf);
+}
+*{
+    font-family: Minecraft;
+}
+.miTexto{
+    text-align: center;
+}
+p{
+    font-size: 15px;
+}
+span{
+    font-weight: bold;
+}
+h2{
+    color: blue;
+}
+video{
+    width: 20%;
+}

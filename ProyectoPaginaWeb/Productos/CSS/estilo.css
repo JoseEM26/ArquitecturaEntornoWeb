@@ -12,6 +12,8 @@ nav{
     position: fixed;
     z-index: 1 ;
     width: 100%;
+    /* padding-bottom: 10px; */
+    justify-content: center;
     padding-bottom: 10px;
     
    }
@@ -26,16 +28,16 @@ nav a{
     display: inline-block;
    text-decoration: none;
     color:rgb(0, 0, 0);
-    font-style: normal;
-    margin: 0px 30px;
+    font-style: none;
+    margin: 0% 30px;
    
-    padding: 10pc 30px;
-    font-size: 120%;
-padding: 1px 1px;
+    /* padding: 10pc 30px; */
+    font-size: 20px;
+    padding: 1px 1px;
 }
 nav a:hover{
     color: rgb(0, 0, 0);
-    font-size: 150%;
+    font-size: 23px;
     font-style: italic;
     font-weight: 900;
     
@@ -67,8 +69,11 @@ main section{
 }
 
 main section img:hover{
-width: 110%;
+width: 115%;
 
+}
+section img{
+    width: 110%;
 }
 
 
