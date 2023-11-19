@@ -1,7 +1,12 @@
+@font-face{
+font-family: 'grueso';
+src: url('../fuentes/coolvetica.otf') ;
+}
 *{
     padding: 0;
     border: 0;
     margin: 0;
+    font-family: 'grueso';
 }
 html{
     background-color: rgb(255, 255, 255);
@@ -64,7 +69,7 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 100px;
-    padding: 80px 100px;
+    padding: 80px 150px;
    
 }
 main img{
@@ -74,12 +79,17 @@ main img{
 }
 main section{
     border: 5px solid white;
+   
     width: 350px;
     height: 350px;
     margin: 30px;
     background-color: white;
     text-align: center;
     background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+main section:hover{
+    background-color: rgb(243, 243, 243);
 }
 main h1{
     width: 100%;
@@ -87,4 +97,9 @@ main h1{
 }
 section figcaption{
     padding:  10px;
+    font-weight: 900;
+    font-size: 20px;
+}
+section h3{
+    text-decoration: none;
 }

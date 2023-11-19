@@ -1,2 +1,2 @@
 let Nombre=prompt("Ingrese su Nombre");
-alert("hola     "+Nombre);
+alert("hola "+Nombre);

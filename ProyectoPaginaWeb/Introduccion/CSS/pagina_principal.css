@@ -1,7 +1,12 @@
+@font-face{
+    font-family: 'grueso';
+    src: url('../fuentes/coolvetica.otf') ;
+    }
 *{
     padding: 0;
     border: 0;
     margin: 0;
+    font-family: 'grueso';
 }
 body{
     padding: 0;

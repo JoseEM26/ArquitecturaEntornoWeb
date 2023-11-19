@@ -1,0 +1,108 @@
+package Ceramica;
+
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Color;
+import java.awt.Toolkit;
+
+public class GenRepor extends JDialog {
+	private JComboBox cmbReporte;
+	private JButton btnCerrar;
+	private JTextArea txtS;
+	private Menu parentFrame;
+	
+
+	 
+	 
+	 public GenRepor(Menu parentFrame) {  
+	        this.parentFrame = parentFrame;  
+	    }
+	 
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		try {
+			GenRepor dialog = new GenRepor();
+			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+			dialog.setVisible(true);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Create the dialog.
+	 */
+	public GenRepor() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\Proyecto Algoritmia Ceramica\\img\\reporte.png"));
+		getContentPane().setBackground(new Color(175, 238, 238));
+		setTitle("Generar Reportes");
+		setBounds(100, 100, 558, 300);
+		getContentPane().setLayout(null);
+		{
+			JLabel lblTipoReporte = new JLabel("Tipo de reporte");
+			lblTipoReporte.setBounds(10, 29, 99, 14);
+			getContentPane().add(lblTipoReporte);
+		}
+		{
+			cmbReporte = new JComboBox();
+			cmbReporte.setModel(new DefaultComboBoxModel(new String[] {"Ventas por modelo", "Comparaci\u00F3n de precios con el precio promedio", "Comparaci\u00F3n de cajas vendidas con la cantidad \u00F3ptima", "Estad\u00EDstica sobre el precio"}));
+			cmbReporte.setBounds(119, 25, 320, 22);
+			getContentPane().add(cmbReporte);
+			cmbReporte.addActionListener(new ActionListener() {
+	            public void actionPerformed(ActionEvent e) {
+	            	String model = Menu.modelo0;
+	            	String model1 = Menu.modelo1;
+	            	String model2 = Menu.modelo2;
+	            	String model3 = Menu.modelo3;
+	            	String model4 = Menu.modelo4;
+	            	double impor = Vender.imto;
+	            	int cant = Vender.cantidad;
+	            	int tipo ;
+	            	
+	            	tipo = cmbReporte.getSelectedIndex();
+	            	
+	            	if (tipo ==0)
+	            		txtS.setText("VENTAS POR MODELO\n\n");
+	            	    txtS.append("Modelo\t\t:" + model + "\n");
+	            	    txtS.append("Cantidad de ventas\t\t:" + cant + "\n");
+	            	
+	            	
+		}
+    });
+		}
+		{
+			btnCerrar = new JButton("Cerrar");
+			btnCerrar.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					dispose();
+				}
+			});
+			btnCerrar.setBounds(443, 25, 89, 23);
+			getContentPane().add(btnCerrar);
+		}
+		{
+			JScrollPane scrollPane = new JScrollPane();
+			scrollPane.setBounds(10, 71, 522, 179);
+			getContentPane().add(scrollPane);
+			{
+				txtS = new JTextArea();
+				scrollPane.setViewportView(txtS);
+			}
+		}
+	}
+
+}

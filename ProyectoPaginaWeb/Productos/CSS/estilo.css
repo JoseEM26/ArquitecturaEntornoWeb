@@ -1,7 +1,12 @@
+@font-face{
+    font-family: 'grueso';
+    src: url('../fuentes/coolvetica.otf') ;
+    }
 *{
     padding: 0;
     border: 0;
     margin: 0;
+    font-family: 'grueso';
 }
 html{
     background-color: rgb(255, 255, 255);
@@ -16,12 +21,11 @@ nav{
     justify-content: center;
     padding-bottom: 10px;
     
+    
    }
    nav img{
     position: absolute;
-    left: 20px;
-    
-    padding-left: 0px;
+    left: 20px; 
 }
 
 nav a{
