@@ -1,0 +1,122 @@
+@font-face{
+    font-family: 'grueso';
+    src: url('../fuentes/coolvetica.otf') ;
+    }
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'grueso';
+}
+
+.link{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    border: 0;
+    margin: 0; 
+    background-color: white; 
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    position: fixed;
+    z-index: 1 ;
+    width: 100%;
+    background-color: rgba(243, 243, 243, 0.705);
+ 
+}
+
+/* para configurar propiedad de la manzanita */
+nav img{
+    float: left;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+/* configrar la letra y color del nav */
+nav a{
+    display: inline-block;
+   text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-style: normal;
+    margin: 0;
+    padding: 5px 30px;
+    font-size: 120%;
+    padding: 10px 20px;
+}
+
+/* cada vez q toco letra del nav se agrande */
+nav a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    /* font-style: italic; */
+    font-weight: 900;
+}
+
+/* configurar los tamaños de los articulos o secciones */
+main{
+    width: 100%;
+    padding:50px 5px ;
+    background-color: white;
+}
+main h1{
+    margin-left: 15%;
+    font-size: 50px;
+}
+section{
+    padding: 20px 13%;
+    flex-wrap: wrap;
+    display: flex;
+}
+main figure {
+    width: 30%;
+    margin: 20px ;
+    border: 1px solid black;
+}
+  
+main figure img {
+    width: 85%;
+    margin: 10px auto;
+    display: block;
+}
+  
+.iphonePro { 
+    width: 91%;
+}
+
+main figure figcaption {
+    margin: 10px;
+    text-align: center;
+}
+
+main figure:hover{
+    background-color: rgb(240, 239, 239);
+}
+
+
+/* la parte de abajo los credito */
+footer{
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    padding-left: 13%; 
+    
+    
+}
+footer div{ 
+    color: white;
+    width: 40%;
+    margin: 30px 0;  
+    
+  
+    
+}
+
+
+
