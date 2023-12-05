@@ -109,18 +109,24 @@ figure img {
 /* sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
 form{
 border: 1px solid black;
-margin: 1px 5px;
-border-radius: 10px;
+/* margin: 1px 5px; */
+/* border-radius: 10px; */
 width: 30%;
-text-align: center;
-align-items: center;
-display: flex;
 background-color: black;
 color: white;
+}
+form div{
+    margin-top: 40%;
+    display: block;
+text-align: center;
+align-items: center;
 }
 
 form h1{
     font-size: 200%;
     
+}
+div p{
+    font-size: 10px;
 }
 
