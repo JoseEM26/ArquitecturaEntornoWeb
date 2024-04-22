@@ -1,0 +1,152 @@
+@font-face{
+    font-family: 'coolvertica';
+    src: url('..//fuentes/coolvetica.otf') format('truetype');
+}
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'coolvertica';
+}
+body{
+    padding: 0;
+    border: 0;
+    margin: 0; 
+    background-color: white; 
+}
+
+nav{
+    background-color: rgba(243, 243, 243, 0.705);
+    text-align: center;
+    position: fixed;
+    z-index: 1 ;
+    width: 100%;
+    /* padding-bottom: 10px; */
+    justify-content: center;
+    padding-bottom: 10px;
+    
+    
+   }
+   nav img{
+    position: absolute;
+    left: 20px; 
+}
+
+nav a{
+    display: inline-block;
+   text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-style: none;
+    margin: 0% 30px;
+   
+    /* padding: 10pc 30px; */
+    font-size: 20px;
+    padding: 1px 1px;
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 900;
+    
+}
+/* -------------------------------------- */
+
+main{
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+main div{
+margin: 0;
+padding: 10px 20% 10px 20%;
+text-align: justify;
+
+}
+
+p{
+    font-size: 150%;
+}
+.videoo{
+    padding: 30px;
+    text-align: center;
+}
+.videoo video{
+    margin: 30px 0px 0px 0;
+    width: 40%;
+}
+.columna-0{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}
+.columna-1{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.columna-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.columna-3{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.columna-1 img{
+    
+    border-radius: 100%;
+    float: left;
+    margin-right: 20%;
+    width: 80%;
+    position: relative;
+}
+
+.columna-2 img{
+    border-radius: 100%;
+    float: right;
+    margin-left: 20%;
+    width: 30%;
+    position: relative;
+}
+
+.columna-3 img{
+    border-radius: 100%;
+    float: left;
+    margin-right: 20%;
+    width: 45%;
+    position: relative;
+}
+
+/* -------------------------------------- */
+footer{
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    padding-left: 13%; 
+    
+    
+}
+footer div{ 
+    color: white;
+    width: 40%;
+    margin: 30px 0;  
+    
+  
+    
+}
+
+div h3{
+    text-align: justify;
+    font-size:180%;
+    
+}
+div li{
+    font-size: 100%;
+}

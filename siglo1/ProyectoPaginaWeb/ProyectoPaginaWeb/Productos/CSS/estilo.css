@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'grueso';
+    src: url('../fuentes/coolvetica.otf') ;
+    }
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'grueso';
+}
+html{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    background-color: rgba(243, 243, 243, 0.705);
+    text-align: center;
+    position: fixed;
+    z-index: 1 ;
+    width: 100%;
+    /* padding-bottom: 10px; */
+    justify-content: center;
+    padding-bottom: 10px;
+    
+    
+   }
+   nav img{
+    position: absolute;
+    left: 20px; 
+}
+
+nav a{
+    display: inline-block;
+   text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-style: none;
+    margin: 0% 30px;
+   
+    /* padding: 10pc 30px; */
+    font-size: 20px;
+    padding: 1px 1px;
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 900;
+    
+}
+.link{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+main{
+    /* border: 5px solid blue; */
+    width: 100;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4% 10%;
+    padding-top: 6%;
+    justify-content: center;
+    
+}
+main section{
+   
+    margin: 50px;
+    transition: .5 ease ;
+    width: 500px;
+    height: 300px;
+    
+}
+
+main section img:hover{
+width: 115%;
+
+}
+section img{
+    width: 110%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    padding-left: 13%; 
+    
+    
+}
+footer div{ 
+    color: white;
+    width: 40%;
+    margin: 30px 0;  
+    
+  
+    
+}

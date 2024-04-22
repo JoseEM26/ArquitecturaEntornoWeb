@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    background-color: orange;
+}
+.contenedor{
+    background-color: antiquewhite;
+    margin: 40px;
+}
+header{
+    text-align: center;
+    font-size: 100%;
+    color: orange;
+    font-weight: bold;
+    
+}
+header h1{
+    padding: 10px 0 10px 0;
+}
+header img{
+width: 100%;
+float: left;
+}
+nav{
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+
+}
+main{
+    display: flex;
+}
+aside{
+    width: 20%;
+    background: beige;
+    padding: 20px;  
+}
+aside h2{
+    color: blue;
+
+}
+aside ul{
+    padding: 10px;
+}
+aside ol{
+    padding: 10px;
+}
+aside img{
+    padding-top: 20px;
+}
+section{
+    width: 53%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    
+}
+section img{
+    width: 90%;
+}
+section div{
+    padding: 10px;
+    text-align: center;
+    width: 45%;
+}
+aside img{
+    width: 60%;
+
+}
+aside p {
+    font-size: 90%;
+}
+figcaption{
+    color: green;
+}
+footer{
+    text-align: center;
+    background: green;
+    color: aliceblue;
+}
+footer p{
+    padding: 5px;
+}

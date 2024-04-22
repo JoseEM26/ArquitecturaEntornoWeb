@@ -1,0 +1,126 @@
+@font-face{
+    font-family: 'grueso';
+    src: url('../fuentes/coolvetica.otf') ;
+    }
+*{
+   
+    font-family: 'grueso';
+}
+#contenedor{
+
+}
+body{
+    padding: 0;
+    border: 0;
+    margin: 0; 
+    background-color: white; 
+}
+nav{
+ background-color: rgb(255, 255, 255);
+ text-align: center;
+ position: fixed;
+ z-index: 1 ;
+ width: 100%;
+ background-color: rgba(243, 243, 243, 0.705);
+ height: 6%;
+}
+/* para configurar propiedad de la manzanita */
+nav img{
+    float: left;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+/* configrar la letra y color del nav */
+nav a{
+    display: inline-block;
+   text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-style: normal;
+    margin: 0;
+    padding: 0px 30px;
+    font-size: 120%;
+
+}
+/* cada vez q toco letra del nav se agrande */
+nav a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    font-style: italic;
+    font-weight: 900;
+}
+/* configurar los tamaños de los articulos o secciones */
+section{
+   
+    display: flex;
+    padding-top: 52px  ;
+    width: 100%;
+    height: 870px;
+    
+    
+}
+/* todo lo q tiene q ver con las imagenes y su transcicion */
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .6s ease;  
+    cursor:crosshair; 
+        /*cada vez q toque la imagen el mouse cambia de diseño  */
+}
+/* cada vez q todo la imagen se mueva */
+section img:hover{
+    width: 400px;
+    
+    filter: contrast(120%);
+    /* mayor resolucion la imagen */
+}
+/* la parte de abajo los credito */
+footer{
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    padding-left: 13%; 
+    
+    
+}
+footer div{ 
+    color: white;
+    width: 40%;
+    margin: 30px 0;  
+    
+  
+    
+}
+
+div h3{
+    text-align: justify;
+    font-size:150%;
+    
+}
+div li{
+    font-size: 90%;
+    
+    
+}
+figure img {
+    width: 10%;
+    
+}
+
+/* sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+form{
+border: 1px solid black;
+margin: 1px 5px;
+border-radius: 10px;
+width: 30%;
+text-align: center;
+align-items: center;
+display: flex;
+background-color: black;
+color: white;
+}
+
+form h1{
+    font-size: 200%;
+    
+}
+

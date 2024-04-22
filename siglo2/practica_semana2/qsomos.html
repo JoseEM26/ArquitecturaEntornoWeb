@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes somos</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/qsomos.css">
+</head>
+<body>
+    <header>
+        <h1 id="nombre">ElectroMago</h1>
+        <img id="banner" src="img/banner4.jpg" alt="Tiendita electrónica">
+    </header>
+    <nav> <!--  ul#menu>li*5>a  -->
+        <ul id="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="qsomos.html">¿Quiénes somos?</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="catalogo.html">Tienda</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+    <h1>¿Quiénes somos?</h1>
+    <main>
+        <section id="seccion1">
+            <article>
+                <p>
+                    Somos una compañía que comenzó sus operaciones en 2023, abarcando los sectores de electrónica tanto para expertos como para entusiastas. Además, hemos ampliado nuestra presencia en la comercialización de componentes, piezas y dispositivos informáticos, así como productos tecnológicos. En la actualidad, operamos como una tienda en línea con la intención de llegar a todas las partes de los 5 continentes.
+                </p>
+            </article>
+            <article>
+                <img src="img/qsomosImg1.jpeg" alt="Quiénes somos">
+            </article>
+        </section>
+        <section>
+            <div class="socios">
+                <article class="socio" onclick="mostrarInfoSocio(1)">
+                    <figure>
+                        <img src="img/people2.jpg" alt="Socio 1">
+                        <figcaption class="texto-oculto">Mabel: Especialista en tecnologías gamer. Ha logrado maximizar el rendimiento de equipos y componentes para juegos.</figcaption>
+                    </figure>
+                </article>
+                <article class="socio" onclick="mostrarInfoSocio(2)">
+                    <figure>
+                        <img src="img/people1.jpg" alt="Socio 2">
+                        <figcaption class="texto-oculto">Daniela: Experta en desarrollo web y diseño de interfaces de usuario. Contribuye a la creación de experiencias en línea excepcionales.</figcaption>
+                    </figure>
+                </article>
+                <!-- Agrega más socios según sea necesario -->
+            </div>
+        </section>
+
+        <!--MISIÓN VISIÓN-->
+
+    <!-- Contenidos que se mostrarán al hacer clic en los botones -->
+    <section>
+        <article class="contenido" onclick="mostrarContenido('mision')">
+            <h2>Misión</h2>
+            <div class="acordeon-contenido" id="contenido-mision">
+                <p>Actualmente somos una tienda de electrónica y manejamos lo que corresponde a la venta de partes y accesorios de electrónica dirigido para el bricolaje y personas con conocimiento de electrónica dirigidos a todas las personas, emprendedores y empresas que desean adquirir nuestros productos y asesoría.</p>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <article class="contenido" onclick="mostrarContenido('vision')">
+            <h2>Visión</h2>
+            <div class="acordeon-contenido" id="contenido-vision">
+                <p>Dar asesoría y soporte a los profesionales de la electrónica y aficionados de la electrónica, dándoles los insumos necesarios para realizar sus diseños electrónicos.</p>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <article class="contenido" onclick="mostrarContenido('valores')">
+            <h2>Valores</h2>
+            <div class="acordeon-contenido" id="contenido-valores">
+                <p>Tenemos el compromiso de labrar un futuro mejor, potenciar la investigación y desarrollo de nuevos productos manteniendo una transparencia total, manteniendo una responsabilidad social, contribuir con el medio ambiente y brindar un exclusivo servicio al cliente.</p>
+            </div>
+        </article>
+    </section>
+
+
+
+    </main>
+
+    <footer>
+        <section id="cuenta">
+            <h1>Cuenta Regresiva</h1>
+            <p>Ingrese la cantidad de segundos:</p>
+            <input type="number" id="segundosInput">
+            <button onclick="iniciarCuentaRegresiva()">Iniciar</button>
+            <div id="contador"></div>
+        </section>
+    </footer>
+</body>
+</html>
+<script src="js/qsomos.js"></script>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="css/catalogo.css">
+</head>
+<body>
+    <header>
+        <h1 id="nombre">ElectroMago</h1>
+        <img id="banner" src="img/banner4.jpg" alt="Tiendita electrónica">
+    </header>
+    <nav> <!--  ul#menu>li*5>a  -->
+        <ul id="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="qsomos.html">¿Quiénes somos?</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="catalogo.html">Tienda</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <img src="img/producto1.jpg" alt="Productos">
+                <p class="producto">MacBook Air</p>
+                <button id="dolares" onclick="cambioMoneda()">US$</button> <button id="igv" onclick="cambioImpuesto()">IGV</button> <button id="comprar" onclick="confirmarCompra(1)">Comprar</button>
+                <h4 id="texto">Precio S/ :</h4><h3 id="precio">150.00</h3>
+            </article>
+            <article>
+                <img src="img/producto2.jpg" alt="Productos">
+                <p class="producto">HP Pavilion</p>
+                <button>US$</button> <button>IGV</button>  <button id="comprar" onclick="confirmarCompra(2)">Comprar</button>
+                <h4>Precio S/ :</h4><h3>150.00</h3>
+            </article>
+            <article>
+                <img src="img/producto3.jpg" alt="Productos">
+                <p class="producto">MacBook Air</p>
+                <button>US$</button> <button>IGV</button> <button id="comprar" onclick="confirmarCompra(3)">Comprar</button>
+                <h4>Precio S/ :</h4><h3>150.00</h3>
+            </article>
+            <article>
+                <img src="img/producto4.jpg" alt="Productos">
+                <p class="producto">Asus</p>
+                <button>US$</button> <button>IGV</button> <button id="comprar" onclick="confirmarCompra(4)">Comprar</button>
+                <h4>Precio S/ :</h4><h3>150.00</h3>
+            </article>
+        </section>
+        <section>
+            <article><img src="img/producto5.jpg" alt="Productos"></article>
+            <article><img src="img/producto6.jpg" alt="Productos"></article>
+            <article><img src="img/producto7.jpg" alt="Productos"></article>
+            <article><img src="img/producto8.jpg" alt="Productos"></article>
+        </section>
+        <section>
+            <article><img src="img/producto9.jpg" alt="Productos"></article>
+            <article><img src="img/producto10.jpg" alt="Productos"></article>
+            <article><img src="img/producto11.jpg" alt="Productos"></article>
+            <article><img src="img/producto12.jpg" alt="Productos"></article>
+        </section>
+    </main>
+    <div id="miModal" class="modal">
+        <span class="cerrar" id="cerrarModal">&times;</span>
+        <img id="modalImagen" class="modalContenido" src="" alt="Detalle de producto">
+        <div id="contenedorTextos">
+            <h4 id="modalTexto"></h4>
+            <h3 id="modalPrecio"></h3>
+        </div>
+        
+    </div>
+    <footer id="pie">
+        <p>La pasión e innovación es lo que nos distingue del resto</p>
+        <div id="tiempo">
+            <p id="fecha"></p>
+            <p id="hora"></p>
+        </div>
+        
+    </footer>
+</body>
+</html>
+<script src="js/tienda20.js"></script>
+<script src="js/catalogo.js"></script>
