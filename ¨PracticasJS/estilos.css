@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: darkorange;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 10px 1px black;
+    position: fixed;
+    z-index: 90;
+    font-size: 40px;
+    /* display: none; */
+}
+
+#hamburger {
+    background-color: darkorange;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 100;    
+}
+
+#seccion1 {
+    margin-top: 140px;
+}
+
+.CuerpoContenedor {
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginas {
+    margin: 1.4rem;
+    margin-bottom: 105.8%;
+}
+
+.traslacion {
+    z-index: 95;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.575);
+    transform: translateY(-100%); /* Oculta el aside */
+    transition: transform 1s ease; /* Transición suave */
+}
+
+.traslacion.traslacion.is-active {
+    transform: translateY(0); /* Muestra el aside */
+    
+}
+
+.ContenedorHijo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.enlace {
+    color: white;
+    text-decoration: none;
+    padding: 4rem;
+    font-size: 30px;
+    font-weight: 900;
+    width: 94%;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.enlace:hover {
+    background-color: darkorange;
+}

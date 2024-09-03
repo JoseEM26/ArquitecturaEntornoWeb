@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburgresa</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.css" integrity="sha512-W4KOSUNkQhX7JkalSiTkwAIoqsAvxDdgRc/WAa5U0R2TKTpHnNZuf9AiBk8InN4GCAMwer+O9fe4ThxIQFkOGQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1 class="header">Menu de Hamburgresa con JS</h1>
+    <button id="hamburger" class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <aside id="padre" class="traslacion">
+        <ul class="ContenedorHijo">
+            <a href="#seccion1" class="enlace">enlace 1</a>
+            <a href="#seccion2" class="enlace">enlace 2</a>
+            <a href="#seccion3" class="enlace">enlace 3</a>
+            <a href="#seccion4" class="enlace">enlace 4</a>
+            <a href="#seccion5" class="enlace">enlace 5</a>
+        </ul>
+    </aside>
+    <main class="CuerpoContenedor">
+        <h3 class="paginas" id="seccion1">Pagina 1</h3>
+        <h3 class="paginas" id="seccion2">Pagina 2</h3>
+        <h3 class="paginas" id="seccion3">Pagina 3</h3>
+        <h3 class="paginas" id="seccion4">Pagina 4</h3>
+        <h3 class="paginas" id="seccion5">Pagina 5</h3>
+    </main>
+    <script src="Hamburguesa.js"></script>
+</body>
+</html>
